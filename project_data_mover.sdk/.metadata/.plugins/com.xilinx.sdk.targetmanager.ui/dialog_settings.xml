@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="dma_wrapper_hw_platform_0-device"/>
+	<item value="dma_wrapper.mmi" key="dma_wrapper_hw_platform_0-bmmFile"/>
+	<item value="Digilent Nexys4DDR 210292646178A/1-xc7a100t" key="dma_wrapper_hw_platform_1-device"/>
+	<item value="dma_wrapper.mmi" key="dma_wrapper_hw_platform_1-bmmFile"/>
+	<item value="Local" key="dma_wrapper_hw_platform_0-target"/>
+	<item value="Local" key="dma_wrapper_hw_platform_1-target"/>
+	<item value="bootloop" key="dma_wrapper_hw_platform_1-microblaze_0-initElf"/>
+	<item value="dma_wrapper_hw_platform_1" key="programfpga.hwplatform"/>
+	<item value="bootloop" key="dma_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="false" key="dma_wrapper_hw_platform_0-partial_bit"/>
+	<item value="false" key="dma_wrapper_hw_platform_1-partial_bit"/>
+	<item value="dma_wrapper.bit" key="dma_wrapper_hw_platform_1-bitFile"/>
+	<item value="dma_wrapper.bit" key="dma_wrapper_hw_platform_0-bitFile"/>
+</section>

@@ -1,0 +1,6 @@
+20:27:46 **** Incremental Build of configuration Debug for project dma_test1 ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:27:46 Build Finished (took 57ms)
+

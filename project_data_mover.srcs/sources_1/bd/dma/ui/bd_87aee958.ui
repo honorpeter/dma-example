@@ -1,0 +1,62 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port sys_clock -pg 1 -y 510 -defaultsOSRD
+preplace port DDR2 -pg 1 -y 810 -defaultsOSRD
+preplace port usb_uart -pg 1 -y 290 -defaultsOSRD
+preplace port reset -pg 1 -y 490 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 4 -y 190 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 3 -y 420 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 6 -y 850 -defaultsOSRD
+preplace inst rst_mig_7series_0_81M -pg 1 -lvl 4 -y 740 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -y 310 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 60 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 580 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 3 -y 60 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -y 300 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 450 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 500 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -y 750 -defaultsOSRD
+preplace netloc axi_intc_0_interrupt 1 3 1 N
+preplace netloc mig_7series_0_mmcm_locked 1 3 4 1200 830 NJ 830 2140J 760 2410
+preplace netloc mig_7series_0_DDR2 1 6 1 NJ
+preplace netloc microblaze_0_Clk 1 1 5 420 260 870 180 1170 360 1770 0 2140
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 2 4 890 -30 NJ -30 NJ -30 2090
+preplace netloc microblaze_0_M_AXI_DC 1 4 1 1700
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 5 1 N
+preplace netloc microblaze_0_M_AXI_DP 1 4 1 1750
+preplace netloc microblaze_0_ilmb_1 1 4 1 1680
+preplace netloc sys_clock_1 1 0 1 NJ
+preplace netloc axi_dma_0_s2mm_introut 1 1 4 440 120 NJ 120 1180J 80 1720
+preplace netloc mig_7series_0_ui_clk 1 3 4 1200 340 1740 -10 NJ -10 2420
+preplace netloc axi_dma_0_M_AXI_MM2S 1 4 1 N
+preplace netloc xlconcat_0_dout 1 2 1 860
+preplace netloc rst_mig_7series_0_81M_peripheral_aresetn 1 4 2 1780 880 NJ
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 3 850 320 NJ 320 1760J
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 3 840 310 1160J 350 1720J
+preplace netloc microblaze_0_M_AXI_IC 1 4 1 1710
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 3 3 1200 -50 NJ -50 2120
+preplace netloc axi_dma_0_mm2s_introut 1 1 4 420 130 NJ 130 1180J 310 1680
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 880 290 1190 330 1730 10 2130
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 2 830J 520 1190
+preplace netloc clk_wiz_1_locked 1 1 1 440
+preplace netloc axi_uartlite_0_UART 1 6 1 NJ
+preplace netloc axi_dma_0_M_AXI_S2MM 1 4 1 N
+preplace netloc clk_wiz_1_clk_out2 1 1 5 NJ 500 810J 650 NJ 650 NJ 650 2090
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 3 4 1160 840 NJ 840 2100J 740 2400
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 2120
+preplace netloc microblaze_0_dlmb_1 1 4 1 1760
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 2 1200 300 1690
+preplace netloc microblaze_0_debug 1 3 1 1180
+preplace netloc reset_1 1 0 6 20 430 430 450 820J 640 1170J 630 NJ 630 2110J
+preplace netloc mdm_1_debug_sys_rst 1 1 3 440 270 NJ 270 1150
+levelinfo -pg 1 0 320 630 1020 1440 1940 2270 2440 -top -150 -bot 940
+",
+}
+{
+   da_axi4_cnt: "8",
+   da_board_cnt: "7",
+   da_clkrst_cnt: "3",
+   da_mb_cnt: "1",
+}

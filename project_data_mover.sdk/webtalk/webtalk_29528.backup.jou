@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# 
+# Start of session at: Tue Feb 20 18:35:15 2018
+# Process ID: 29528
+# Current directory: /home/rohan/project_data_mover/project_data_mover.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/rohan/project_data_mover/project_data_mover.sdk/webtalk/webtalk.log
+# Journal file: /home/rohan/project_data_mover/project_data_mover.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

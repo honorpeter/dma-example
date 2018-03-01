@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# 
+# Start of session at: Sun Feb 25 21:59:03 2018
+# Process ID: 23748
+# Current directory: /nfs/ug/homes-1/t/tramblei/ECE532/project_data_mover/project_data_mover.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /nfs/ug/homes-1/t/tramblei/ECE532/project_data_mover/project_data_mover.sdk/webtalk/webtalk.log
+# Journal file: /nfs/ug/homes-1/t/tramblei/ECE532/project_data_mover/project_data_mover.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
